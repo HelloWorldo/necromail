@@ -1,6 +1,6 @@
 # Necromail
 
-Necromail recovers deleted emails from a Thunderbird mailbox file (Tunderbird's mbox format).
+Necromail recovers deleted emails from a Thunderbird mailbox file (Thunderbird's mbox format).
 
 It is not an every day tool, but if you need it (it's probably the case if you've landed here), it gets the job done!
 **If you have not _compacted_ your inbox.**
