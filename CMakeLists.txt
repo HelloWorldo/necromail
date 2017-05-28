@@ -1,0 +1,5 @@
+set (SOURCE_FILES main.cpp)
+add_executable(necromail WIN32 ${SOURCE_FILES})
+if(WIN32)
+	add_definitions(-D_CRT_SECURE_NO_WARNINGS)
+endif()
