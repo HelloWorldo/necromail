@@ -15,10 +15,12 @@ It is not an every day tool, but if you need it (it's probably the case if you'v
 
 First, backup the mbox file you want to process, better safe than sorry.
 
-Analyse the file (dry run). It should indicate how many emails
+Analyse the file (dry run). It should indicate how many emails can be recovered.
+
 `necromail -v file.mbox`
 
-Undelete all the emails marked as deleted.
+Undelete all the emails marked as deleted (it works directly on the mbox file).
+
 `necromail -r file.mbox`
 
 # How to build
@@ -32,5 +34,7 @@ You can build a Microsoft Visual Studio project file with [CMake](https://cmake.
 # Credits
 
 This is a one shot utility made for my own purpose, I hope it will be useful to someone else.
+
 Thanks to A.P.Veening and Paolo "Kaosmos" for their tool. The code was started from [this](https://freeshell.de//~kaosmos/misc/index.html).
+
 Documentation about X-Mozilla-Status flags can be found [here](http://www.eyrich-net.org/mozilla/X-Mozilla-Status.html?en).
